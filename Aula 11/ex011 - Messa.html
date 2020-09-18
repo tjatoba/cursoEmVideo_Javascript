@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDAÇÃO DE NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Sistema de Validação de Nacionalidade Brasileira</h1>
+    Seu País é/ Your Country is <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar/Verify" onclick="validar()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        var nacionalidade = window.document.getElementById('txtpais')
+        
+        function validar() {
+            var país = Text 
+            var res = window.document.querySelector ('div#res')
+            res.innerHTML = `<p>Sua Nacionalidade é Estrangeira</p>`
+
+                if (país === 'Brasil') {
+                    res.innerHTML = `Você é <strong>Brasileiro</strong>!`
+                } else {
+                    res.innerHTML = `<p>Sua Nacionalidade é Estrangeira</p>`
+                }
+        }
+    </script>
+    
+</body>
+</html>
